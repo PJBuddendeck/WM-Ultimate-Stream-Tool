@@ -322,20 +322,20 @@ function updateColor(pSlotID, color) {
 	pSlotEL.style.color = getHexColor(color);
 
 	switch (color) {
+		case "W&M Green":
+			return "#115740";
+		case "Spirit Gold":
+			return "#F0B323";
+		case "W&M Gold":
+			return "#B9975B";
 		case "Red":
 			return "#fd3232";
 		case "Blue":
 			return "#2985f5";
-		case "Yellow":
-			return "#febc0d";	
-		case "Green":
-			return "#21b546";
 		case "Orange":
 			return "#f88632";	
 		case "Cyan":
 			return "#26cae2";
-		case "Pink":
-			return "#fe9bb5";
 		case "Purple":
 			return "#9570fe";
 		case "CPU":
@@ -347,20 +347,20 @@ function updateColor(pSlotID, color) {
 //color codes here!
 function getHexColor(color) {
 	switch (color) {
+		case "W&M Green":
+			return "#115740";
+		case "Spirit Gold":
+			return "#F0B323";
+		case "W&M Gold":
+			return "#B9975B";
 		case "Red":
 			return "#fd3232";
 		case "Blue":
 			return "#2985f5";
-		case "Yellow":
-			return "#febc0d";	
-		case "Green":
-			return "#21b546";
 		case "Orange":
 			return "#f88632";	
 		case "Cyan":
 			return "#26cae2";
-		case "Pink":
-			return "#fe9bb5";
 		case "Purple":
 			return "#9570fe";
 		case "CPU":

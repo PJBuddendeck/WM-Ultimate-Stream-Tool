@@ -89,33 +89,33 @@
 		"Random"
     ],
 	"colorSlots": {
-        "color0": {
+		"color0": {
+			"name": "W&M Green",
+			"hex": "#115740"
+    	},
+		"color1": {
+			"name": "Spirit Gold",
+			"hex": "#F0B323"
+    	},
+		"color2": {
+			"name": "W&M Gold",
+			"hex": "#B9975B"
+    	},
+        "color3": {
 			"name": "Red",
 			"hex": "#fd3232"
     	},
- 		"color1": {
+ 		"color4": {
 			"name": "Blue",
         	"hex": "#2985f5"
         },
-        "color2": {
-            "name": "Yellow",
-        	"hex": "#febc0d"
-        },
-        "color3": {
-			"name": "Green",
-			"hex": "#21b546"
-        },
-        "color4": {
+        "color5": {
 			"name": "Orange",
 			"hex": "#f88632"
         },
-        "color5": {
+        "color6": {
 			"name": "Cyan",
 			"hex": "#26cae2"
-        },
-        "color6": {
-			"name": "Pink",
-			"hex": "#fe9bb5"
         },
         "color7": {
 			"name": "Purple",
