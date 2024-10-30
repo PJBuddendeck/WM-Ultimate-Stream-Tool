@@ -279,8 +279,8 @@ function loadColors(pNum) {
     }
 
     //finally, set initial values for the global color variables
-    colorP1 = "Red";
-    colorP2 = "Blue";
+    colorP1 = "W&M Green";
+    colorP2 = "Spirit Gold";
 }
 
 function updateColor() {
