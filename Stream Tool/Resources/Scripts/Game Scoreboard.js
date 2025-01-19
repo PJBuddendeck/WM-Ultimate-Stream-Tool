@@ -12,7 +12,7 @@ let p2CharacterPrev, p2SkinPrev, p2ScorePrev, p2ColorPrev, p2wlPrev;
 let bestOfPrev;
 
 //max text sizes (used when resizing back)
-const roundSize = '32px';
+const roundSize = '28px';
 const casterSize = '24px';
 const twitterSize = '20px';
 const p1NScoreSize = '55px';
@@ -555,10 +555,10 @@ function scoreChange(scoreEL, color) {
 //updates the player's text and portrait background colors
 function updateColor(colorID, textID, pColor) {
 	const colorEL = document.getElementById(colorID);
-	const textEL = document.getElementById(textID);
+	//const textEL = document.getElementById(textID);
 
 	gsap.to(colorEL, {backgroundColor: getHexColor(pColor), duration: fadeInTime});
-	gsap.to(textEL, {color: getHexColor(pColor), duration: fadeInTime});
+	//gsap.to(textEL, {color: getHexColor(pColor), duration: fadeInTime});
 }
 
 function updateBorder(bestOf) {
@@ -673,13 +673,13 @@ function updateSocial(mainSocial, mainText, mainBox, otherSocial, otherBox) {
 //player text change
 function updatePlayerName(wrapperID, nameID, teamID, pronID, pName, pTeam, pPron) {
 	const nameEL = document.getElementById(nameID);
-	nameEL.style.fontSize = '40px'; //set original text size
+	nameEL.style.fontSize = '30px'; //set original text size
 	nameEL.textContent = pName; //change the actual text
 	const teamEL = document.getElementById(teamID);
-	teamEL.style.fontSize = '20px';
+	teamEL.style.fontSize = '10px';
 	teamEL.textContent = pTeam;
 	const pronEL = document.getElementById(pronID);
-	pronEL.style.fontSize = '20px';
+	pronEL.style.fontSize = '10px';
 	pronEL.textContent = pPron;
 	resizeText(document.getElementById(wrapperID)); //resize if it overflows
 }
