@@ -673,13 +673,13 @@ function updateSocial(mainSocial, mainText, mainBox, otherSocial, otherBox) {
 //player text change
 function updatePlayerName(wrapperID, nameID, teamID, pronID, pName, pTeam, pPron) {
 	const nameEL = document.getElementById(nameID);
-	nameEL.style.fontSize = '30px'; //set original text size
+	nameEL.style.fontSize = '35px'; //set original text size
 	nameEL.textContent = pName; //change the actual text
 	const teamEL = document.getElementById(teamID);
-	teamEL.style.fontSize = '10px';
+	teamEL.style.fontSize = '15px';
 	teamEL.textContent = pTeam;
 	const pronEL = document.getElementById(pronID);
-	pronEL.style.fontSize = '10px';
+	pronEL.style.fontSize = '15px';
 	pronEL.textContent = pPron;
 	resizeText(document.getElementById(wrapperID)); //resize if it overflows
 }
